@@ -10,7 +10,9 @@ python = "^3.11"
 github-readme-terminal = "^0.0.3"
 
 [tool.poetry.scripts]
-start = "my_git_term.gen_term:gen"
+gen_dark = "my_git_term.dark:dark"
+gen_light = "my_git_term.light:light"
+gen_readme = "my_git_term.readme:gen"
 
 [build-system]
 requires = ["poetry-core"]
