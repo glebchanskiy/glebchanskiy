@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "my-git-term"
+version = "0.1.0"
+description = ""
+authors = ["Левков Глеб <kiss-shot-heart-under-blade@yandex.by>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+github-readme-terminal = "^0.0.3"
+
+[tool.poetry.scripts]
+start = "my_git_term.gen_term:gen"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
