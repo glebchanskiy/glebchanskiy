@@ -12,7 +12,7 @@ github-readme-terminal = "^0.0.3"
 [tool.poetry.scripts]
 gen_dark = "my_git_term.dark:dark"
 gen_light = "my_git_term.light:light"
-gen_readme = "my_git_term.readme:gen"
+gen_readme = "my_git_term.gen_readme:gen"
 
 [build-system]
 requires = ["poetry-core"]
