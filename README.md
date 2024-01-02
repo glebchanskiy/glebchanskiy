@@ -1,4 +1,4 @@
-<div align="justify">
+<div align="center">
 <picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://i.ibb.co/gdS6Fj0/output-gif.gif">
     <source media="(prefers-color-scheme: light)" srcset="https://i.ibb.co/gdS6Fj0/output-gif.gif">
